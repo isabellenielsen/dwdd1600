@@ -1,0 +1,130 @@
+
+body {
+    font-family: "montserrat", serif;
+margin: 0;
+}
+
+/*header stuff here*/
+header {
+    background-color: #B4C4D9;
+    color: #21402E;
+    padding: 3rem 11px;
+    text-align: center;
+}
+header p {
+    font-size: 1.2rem;
+    color: #21402E;
+    font-weight: 700;
+}
+header span {
+    color: #21402E;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* navigation stuff here */
+nav{
+    background-color: #BFBA75;
+}
+nav ul{
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color:#12261D;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #12261D;
+    color: #BFBA75;
+}
+
+nav li a:hover {
+    color: #D8E0F2;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 11px;
+}
+
+main h1 {
+   color: #21402E;
+}
+main h2 {
+    color: #21402E;
+    margin-bottom: .2rem;
+}
+main h3 {
+    color: #21402E;
+    margin-bottom: .2rem;
+    background-color: #BFBA75;
+}
+main p {
+    margin: 0;
+    color: #21402E;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: #B4C4D9;
+}
+main dl dt {
+    color: #BFBA75;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+main dl dd {
+    color:#21402E;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul lu {
+    line-height: 115%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color:#21402E; 
+}
+
+main em{
+    font-weight: 300;
+}
+main address{
+    font-style: normal;
+    background-color: #BFBA75;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 2px solid #21402E;
+    width: 200px;
+}
+main a {
+    color: #12261D;
+}
+main a:hover {
+    color: #12261D
+}
+
+/* footer stuff here */
+footer {
+    background-color: #B4C4D9;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #12261D
+}
+footer p {
+    margin: 4;
+    letter-spacing: 3px;
+}
